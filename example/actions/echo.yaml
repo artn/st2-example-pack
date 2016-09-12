@@ -1,0 +1,13 @@
+---
+name: echo
+pack: example
+runner_type: "local-shell-cmd"
+description: "Output messages to file"
+enabled: true
+entry_point: echo.sh
+parameters:
+    message:
+        type: string
+        description: echo
+        required: true
+        position: 1

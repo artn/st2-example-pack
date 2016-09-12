@@ -1,0 +1,10 @@
+---
+class_name: "EchoSensor"
+entry_point: "echo_sensor.py"
+description: "Echo sensor"
+trigger_types:
+  -
+    name: "echo"
+    description: "Receive message via webhook"
+    payload_schema:
+      type: "object"

@@ -1,0 +1,13 @@
+---
+name: "echo"
+pack: "example"
+description: "Relay trigger message to action."
+enabled: true
+
+trigger:
+  type: "example.echo"
+
+action:
+  ref: example.echo
+  parameters:
+    message: "{{trigger}}"
